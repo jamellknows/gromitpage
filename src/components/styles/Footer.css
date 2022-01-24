@@ -1,0 +1,17 @@
+
+
+.footer{
+    display: flex;
+    box-sizing: border-box;
+    width: 100vw;
+    background: linear-gradient(to right, #fff, #000);
+    justify-content: column;
+}
+
+.row{
+    color: white;
+    margin: 0px 5px 0 5px;
+}
+
+
+

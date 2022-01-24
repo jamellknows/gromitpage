@@ -1,0 +1,48 @@
+
+.box{
+    width: 200px;
+    height: 80px;
+    border: 5px;
+    margin: 20px, 20px, 20px, 20px;
+    border-style: groove;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    border-radius: 10%;
+    transition: 0.3s;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.box:hover{
+    background-color: var(--bg-color);
+    color: white;
+    
+
+
+
+}
+
+
+
+
+.box-image{
+    display: flex;
+    width: 90px;
+    height: 90px;
+ 
+
+}
+
+.box-text{
+    display: flex;
+    justify-content: center;
+    font-family: 'Acme', sans-serif;
+    background-image: linear-gradient(to right, brown, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}

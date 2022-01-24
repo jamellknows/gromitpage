@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.section1title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 20vh;
+    background-image: linear-gradient(to right, #000, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+
+.section1title::after{
+    content: '';
+    width: 10px;
+    height: 280px;
+    background: linear-gradient(to bottom, #000, brown);
+    position: absolute;
+    top: 140px;
+    left: 20px;
+}
+
+.section1text{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #fff, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  
+}
+.section1link{
+    background-image: linear-gradient(to bottom, blue, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    
+}
+
+.section1link:hover{
+    color: blue;
+    background-image: none;
+
+}
